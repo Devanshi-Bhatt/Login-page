@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    background-color:lightgray;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background-color:azure;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 2rem;
+    border: 2px solid black;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.title{
+    /* justify-content: center;
+    justify-items: inline; */
+    text-align: center;
+}
+.cards div{
+    padding: 10px;
+    width: 100%;
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.username{
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 2px;
+}
+.psword{
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 2px;
+}
+.btn-primary{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blue;
+    border: lightblue;
+    margin: 10px;
+    text-align: center;
+}
+.card{
+    background-color: azure;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.form-control{
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    margin: 2px;
+}
+.password{
+    border-radius: 50px;
+}
+.mail-address{
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+}
+
+
+a {
+    
+    color: white !important;
+    text-decoration: none !important;
+}
